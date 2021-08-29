@@ -1,6 +1,6 @@
 # Data Pipeline Project
 ---
-Sparkify would like to add automation and monitoring to the ETL pipelines. The pipeline should be dynamic and reusable, easily monitored, making easy backfills, and ensure data quality after ETL steps. Our source data resides in a S3 bucket and our destination is a data warehouse in Redshift.
+A data pipeline that is dynamic and reusable, easily monitored, backfilled easily, and ensure data quality after ETL steps. Our source data (JSON logs detailing user activity in a music app and JSON metadata about songs listened to by users) resides in a S3 bucket and our destination is a data warehouse in Redshift.
 ---
 ![Airflow Data Pipeline](airflow_data_pipeline.png)
 
